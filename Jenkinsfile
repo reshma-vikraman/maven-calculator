@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'master' } // This specifies the Built-In Node
+    agent { label 'built-in' } // This specifies the Built-In Node
 
     stages {
         stage('Checkout Code') { 
